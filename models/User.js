@@ -63,9 +63,9 @@ userSchema.methods.generateAuthToken = async function () {
     {
       _id: user._id.toString(),
     },
-    "Niomic",
+    "Ekki",
     {
-      expiresIn: "1 days", // waktu berdasarkan waktu dalam bahasa inggris
+      expiresIn: "10 days", // waktu berdasarkan waktu dalam bahasa inggris
     }
   );
 
