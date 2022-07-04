@@ -64,12 +64,12 @@ app.use("/api/dashboard", dashboardRouter);
 // client
 app.use("/api/client", homeRouter);
 
-const port = process.env.PORT || 3008;
+const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
 app.listen(port, () => {
-  console.log(`Server Running at http://localhost:${port}`);
+  console.log(`Server Up in Port :${port}`);
 });
